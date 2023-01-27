@@ -26,7 +26,11 @@ Images:
     - (You may use any image you would like for the background!)
 */
 body{
-    background-image: url(sneaker.jpg_large);
+    background-image: url(sneaker.jpg_large) ;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-size:100%;
+    
 }
 
 h1{
@@ -37,4 +41,37 @@ h1{
     margin-left:25%;
     margin-right:25%;
     padding:3%;
+}
+#row1-section2{
+    border:5px groove aqua;
+    padding: 1%;
+    background-color:aqua;
+    font-family:fantasy, copperplate, serif;
+}
+#row1{
+    
+    margin-left:17%;
+    margin-right:50%;
+}
+#jordans-1{
+    border:10px groove aqua;
+    padding: 0.1%;
+    background-color:aqua;
+}
+#row2-section2{
+    border:5px groove rgb(230, 24, 24);
+    padding: 1%;
+    background-color:rgb(230, 24, 24);
+    font-family:fantasy, copperplate, serif;
+}
+#row2{
+    
+    margin-right:17%;
+    margin-left:50%;
+}
+#jordans-2{
+    border:10px groove rgb(230, 24, 24);
+    padding: 0.1%;
+    background-color:rgb(241, 34, 7);
+    margin-top:10%;
 }
